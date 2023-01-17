@@ -43,7 +43,7 @@ DIV BUTTONS
 .bar {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    padding: 10px 50px;
+    padding: 15px 50px 10px;
     background-color: white;
 }
 
@@ -62,4 +62,31 @@ DIV BUTTONS
 .add-section {
     color: #cbd0d5;
     background-color: white;
+}
+
+/*-------------------------
+DIV LISTS
+-------------------------*/
+.lists {
+    margin-top: 2px;
+    background-color: white;
+    padding: 30px 50px;
+    color: #444851;
+}
+
+.lists-layout {
+    margin-bottom: 30px;
+}
+
+.down-arrow::before {
+    content: '\25bc';
+    font-size: small;
+}
+
+ul {
+    list-style: none;
+}
+
+.category {
+    display: inline-block;
 }
