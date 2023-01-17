@@ -69,13 +69,15 @@ DIV BUTTONS
 }
 
 /*-------------------------
-LISTS
+DIV LISTS
 -------------------------*/
 .lists {
     margin-top: 2px;
     background-color: white;
     padding: 30px 50px;
     color: #444851;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .lists-layout {
