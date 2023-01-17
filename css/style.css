@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans serif;
+}
+
+body {
+    background-color: #f6f8f9;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 10px 20px;
+}
+
+.logo {
+    vertical-align: middle;
+}
+
+#title {
+    display: inline-block;
+    vertical-align: middle;
+}
