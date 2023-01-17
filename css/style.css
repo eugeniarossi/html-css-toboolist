@@ -1,3 +1,6 @@
+/*-------------------------
+RESET
+-------------------------*/
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +12,9 @@ body {
     background-color: #f6f8f9;
 }
 
+/*-------------------------
+HEADER
+-------------------------*/
 header {
     background-color: #ffffff;
     padding: 10px 20px;
@@ -21,4 +27,39 @@ header {
 #title {
     display: inline-block;
     vertical-align: middle;
+}
+
+/*-------------------------
+SECTION
+-------------------------*/
+.container {
+    width: 60vw;
+    margin: 30px auto;
+}
+
+/*-------------------------
+DIV BUTTONS
+-------------------------*/
+.bar {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px 50px;
+    background-color: white;
+}
+
+.button {
+    padding: 6px 10px;
+    color: white;
+    border: 1px solid #cbd0d5;
+    border-radius: 5px;
+    font-size: 11px;
+}
+
+.add-task {
+    background-color: #47adf1;
+}
+
+.add-section {
+    color: #cbd0d5;
+    background-color: white;
 }
