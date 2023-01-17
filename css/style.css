@@ -38,7 +38,7 @@ SECTION
 }
 
 /*-------------------------
-DIV BUTTONS
+BUTTONS
 -------------------------*/
 .bar {
     border-top-left-radius: 5px;
@@ -69,7 +69,7 @@ DIV BUTTONS
 }
 
 /*-------------------------
-DIV LISTS
+LISTS
 -------------------------*/
 .lists {
     margin-top: 2px;
@@ -104,25 +104,27 @@ ul {
     margin-right: 10px;
 }
 
-.li-content {
-    display: inline-block;
-    margin: 0 4px;
-}
-
-.category {
-    display: inline-block;
+/*-------------------------
+CATEGORIES
+-------------------------*/
+.editorial::after {
+    content: 'Editorial';
     color: white;
     padding: 6px 11px;
     border-radius: 11px;
     font-size: 10px;
     font-weight: 500;
     margin-left: 5px;
-}
-
-.blue {
     background-color: #47adf1;
 }
 
-.purple {
+.q-goals::after {
+    content: 'Editorial';
+    color: white;
+    padding: 6px 11px;
+    border-radius: 11px;
+    font-size: 10px;
+    font-weight: 500;
+    margin-left: 5px;
     background-color: #9C72E4;
 }
