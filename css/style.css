@@ -93,7 +93,7 @@ ul {
 }
 
 li {
-    margin: 10px 0 15px;
+    margin: 10px 0 20px;
 }
 
 .check::before {
@@ -104,6 +104,17 @@ li {
     font-weight: bold;
     padding: 1px 3px;
     color: green;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.x::before {
+    content: '\00D7';
+    border: 1px solid red;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 0px 4px;
+    color: red;
     vertical-align: middle;
     margin-right: 10px;
 }
