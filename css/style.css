@@ -98,12 +98,12 @@ li {
 
 .check::before {
     content: '\2713';
-    border: 1px solid green;
+    border: 1px solid #67c2ac;
     border-radius: 50%;
     font-size: 9px;
     font-weight: bold;
-    padding: 1px 3px;
-    color: green;
+    padding: 2px 4px;
+    color: #67c2ac;
     vertical-align: middle;
     margin-right: 10px;
 }
@@ -112,7 +112,7 @@ li {
     content: '\00D7';
     border: 1px solid red;
     border-radius: 50%;
-    font-size: 12px;
+    font-size: 13px;
     padding: 0px 4px;
     color: red;
     vertical-align: middle;
