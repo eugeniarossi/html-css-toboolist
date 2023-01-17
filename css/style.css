@@ -85,12 +85,44 @@ DIV LISTS
 .down-arrow::before {
     content: '\25bc';
     font-size: small;
+    margin-right: 4px;
 }
 
 ul {
     list-style: none;
 }
 
+.check::before {
+    content: '\2713';
+    border: 1px solid green;
+    border-radius: 50%;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 1px 3px;
+    color: green;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.li-content {
+    display: inline-block;
+    margin: 0 4px;
+}
+
 .category {
     display: inline-block;
+    color: white;
+    padding: 6px 11px;
+    border-radius: 11px;
+    font-size: 10px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.blue {
+    background-color: #47adf1;
+}
+
+.purple {
+    background-color: #9C72E4;
 }
