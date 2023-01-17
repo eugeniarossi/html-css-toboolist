@@ -30,7 +30,7 @@ header {
 }
 
 /*-------------------------
-SECTION
+CLASSE CONTAINER
 -------------------------*/
 .container {
     width: 60vw;
@@ -38,7 +38,7 @@ SECTION
 }
 
 /*-------------------------
-BUTTONS
+DIV BUTTONS
 -------------------------*/
 .bar {
     border-top-left-radius: 5px;
@@ -96,6 +96,9 @@ li {
     margin: 10px 0 20px;
 }
 
+/*-------------------------
+CHECK - X ICONS
+-------------------------*/
 .check::before {
     content: '\2713';
     border: 1px solid #67c2ac;
