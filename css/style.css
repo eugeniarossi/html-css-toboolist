@@ -105,15 +105,17 @@ li {
 CHECK - X ICONS
 -------------------------*/
 .check::before {
+    width: 15px;
+    height: 15px;
     content: '\2713';
     border: 1px solid #67c2ac;
     border-radius: 50%;
     font-size: 9px;
     font-weight: bold;
-    padding: 2px 4px;
     color: #67c2ac;
     vertical-align: middle;
     margin-right: 10px;
+    line-height: 15px;
 }
 
 .x::before {
@@ -121,10 +123,10 @@ CHECK - X ICONS
     border: 1px solid red;
     border-radius: 50%;
     font-size: 13px;
-    padding: 0px 4px;
     color: #e8433b;
     vertical-align: middle;
     margin-right: 10px;
+    line-height: 15px;
 }
 
 /*-------------------------
